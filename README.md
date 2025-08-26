@@ -48,21 +48,13 @@ Effective inventory and sales management are critical in the retail sector. This
 ---
 vendor—performance—analysis/
 │
-
 ├── README.md
-
 ├── .gitignore
-
 ├── requirements.txt
-
 ├── vendor_performance_report.pdf
-
 │
-
 ├── notebooks/                   Jupyter notebooks
-
 │   ├── exploratory_data_analysis.ipynb
-
 │   └── vendor_performance_analysis.ipynb
 │
 ├── scripts/                    Python scripts for ingestion and processing
@@ -75,6 +67,27 @@ vendor—performance—analysis/
 ├── dashboard/                  Power BI dashboard file
 │   └── vendor_performance.pbix
 ---
+
+vendor-performance-analysis/
+│
+├── README.md # Project documentation
+├── .gitignore # Git ignore file
+├── requirements.txt # Python dependencies
+├── vendor_performance_report.pdf # Final analysis report
+│
+├── notebooks/ # Jupyter notebooks
+│ ├── exploratory_data_analysis.ipynb
+│ └── vendor_performance_analysis.ipynb
+│
+├── scripts/ # Python scripts for ingestion & processing
+│ ├── ingestion_db.py
+│ └── get_vendor_summary.py
+│
+├── outputs/ # Processed outputs (CSV files)
+│ └── vendor_sales_summary.csv
+│
+├── dashboard/ # Power BI dashboards
+│ └── vendor_performance.pbix
 
 # Data Cleaning & Preparation
 
