@@ -27,8 +27,8 @@ Python for analysis and hypothesis testing, and Power BI for visualization.
 
 Effective inventory and sales management are critical in the retail sector. This project aims to:
 - Identify underperforming brands needing pricing or promotional adjustments
-— Determine vendor contributions to sales and profits
-— Analyze the cost—benefit of bulk purchasing
+- Determine vendor contributions to sales and profits
+- Analyze the cost—benefit of bulk purchasing
 - Investigate inventory turnover inefficiencies
 - Statistically validate differences in vendor profitability
 
