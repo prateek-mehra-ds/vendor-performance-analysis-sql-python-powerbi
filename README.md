@@ -146,8 +146,9 @@ python scripts/get_vendor_summary.py
 - Improve marketing for underperforming vendors
 
 # Author & Contact
-
+---
 **Prateek Mehra**
 Data Analyst
 Email - prateek.mehra2112@gmail.com
 [LinkedIn](wwww.linkedin.com/in/prateekmehrads/)
+---
