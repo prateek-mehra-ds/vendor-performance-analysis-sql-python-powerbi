@@ -45,7 +45,6 @@ Effective inventory and sales management are critical in the retail sector. This
 
 # Project Structure
 
----
 vendor—performance—analysis/
 │
 ├── README.md
@@ -66,7 +65,7 @@ vendor—performance—analysis/
 │
 ├── dashboard/                  Power BI dashboard file
 │   └── vendor_performance.pbix
----
+
 
 vendor-performance-analysis/
 │
@@ -88,6 +87,7 @@ vendor-performance-analysis/
 │
 ├── dashboard/ # Power BI dashboards
 │ └── vendor_performance.pbix
+
 
 # Data Cleaning & Preparation
 
