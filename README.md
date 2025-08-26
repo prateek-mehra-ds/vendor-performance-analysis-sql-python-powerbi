@@ -66,6 +66,7 @@ vendor—performance—analysis/
 ├── dashboard/                  Power BI dashboard file
 │   └── vendor_performance.pbix
 
+````
 vendor-performance-analysis/
 │
 ├── 📄 README.md
@@ -86,6 +87,7 @@ vendor-performance-analysis/
 │
 ├── 📈 dashboard/ Power BI dashboard file
 │ └── 📊 vendor_performance.pbix
+````
 
 
 # Data Cleaning & Preparation
