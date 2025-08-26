@@ -43,7 +43,7 @@ Effective inventory and sales management are critical in the retail sector. This
 - Power BI (Interactive Visualizations)
 - GitHub
 
-# Project Structure
+## Project Structure
 
 vendor—performance—analysis/
 │
