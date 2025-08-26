@@ -7,15 +7,15 @@ using SQL, Python, and Power Bl._
 - [Overview](#overview)
 - [Business Problem](#business_problem)
 - [Dataset](#dataset)
-- [Tools & Technologies](#tools_&_technologies)
+- [Tools & Technologies](#tools--technologies)
 - [Project Structure](#project_structure)
-- [Data Cleaning & Preparation](#data_cleaning_&_preparation)
+- [Data Cleaning & Preparation](#data_cleaning--preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory_data_analysis__eda_)
-- [Research Questions - Key Findings](#research_questions_-_key_findings)
+- [Research Questions & Key Findings](#research_questions--key_findings)
 - [Dashboard](#dashboard)
-- [How to Run this project](#how_to_run_this_project)
+- [How to Run This Project](#how_to_run_this_project)
 - [Final Recommendation](#final_recommendation)
-- [Author Contact](#author_contact)
+- [Author & Contact](#author--contact)
 
 # Overview
 
@@ -73,7 +73,7 @@ vendor-performance-analysis/
 -  Removed transactions with:
  - Gross Profit ≤ 0
  - Profit Margin ≤ 0
- - Sales Quantity = Ø
+ - Sales Quantity = 0
 - Created summary tables with vendor-level metrics
 - Converted data types, handled outliers, merged lookup tables
 
@@ -91,6 +91,63 @@ vendor-performance-analysis/
 
 **"Correlation Analysis:"**
  - Weak between Purchase Price & Profit
- - Strong between Purchase Qty & Sates Qty (O.999)
+ - Strong between Purchase Qty & Sates Qty (0.999)
  - Negative between Profit Margin & Sales Price (-0.179)
 ---
+
+# Research Questions & Key Findings
+
+1.**Brands for Promotions**: 198 brands with low sales but high profit margins
+2.**Top Vendors**: Top 10 vendors = 65.698 of purchases -- risk of over—reliance
+3.**Bulk Purchasing Impact**: 72% cost savings per unit in large orders
+4.**Inventory Turnover**: $2.71M worth of unsold inventory
+5.**Vendor Profitability**:
+  - High Vendors: Mean Margin = 31.17%
+  - Low Vendors: Mean Margin = 41.55%
+6.**Hypothesis Testing**: Statistically significant difference in profit margins -- distinct vendor
+strategies
+
+# Dashboard
+
+— Power BI Dashboard shows:
+ — Vendor—wise Sales and Margins
+ — Inventory Turnover
+ — Bulk Purchase Savings
+ - Performance Heatmaps
+
+![vendor_performance_dashboard](images/dashboard.png)
+
+# How to Run This Project
+
+1. Clone the repository:
+``` bash
+git clone https://qithub.com/yourusername/vendor—performance—anatysis.git
+```
+2. Load the CSVs and ingest into database:
+```bash
+python scripts/ ingestion_db.py
+```
+3. Create vendor summary table:
+```bash
+python scripts/get_vendor_summary.py
+```
+4. Open and run notebooks:
+  - 'notebooks/exploratory_data_analysis.ipynb'
+  - 'notebooks/vendor_performance_analysis.ipynb'
+5. Open Power BI Dashboard:
+  - 'dashboard/vendor_performance.pbix'
+
+# Final Recommendations
+
+- Diversify vendor base to reduce risk
+- Optimize bulk order strategies
+- Reprice stow-moving, high-margin brands
+- Clear unsold inventory strategically
+- Improve marketing for underperforming vendors
+
+# Author & Contact
+
+**Prateek Mehra**
+Data Analyst
+Email - prateek.mehra2112@gmail.com
+[LinkedIn](wwww.linkedin.com/in/prateekmehrads/)
