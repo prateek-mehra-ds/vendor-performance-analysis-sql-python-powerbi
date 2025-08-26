@@ -7,7 +7,7 @@ using SQL, Python, and Power Bl._
 - [Overview](#overview)
 - [Business Problem](#business_problem)
 - [Dataset](#dataset)
-- [Tools & Technologies](#tools_-_technologies)
+- [Tools & Technologies](#tools_technologies)
 - [Project Structure](#project_structure)
 - [Data Cleaning & Preparation](#data_cleaning_&_preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory_data_analysis__eda_)
