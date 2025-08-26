@@ -10,7 +10,7 @@ using SQL, Python, and Power Bl._
 - [Tools & Technologies](#tools--technologies)
 - [📂 Project Structure](#--project_structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Research Questions & Key Findings](#research_questions--key_findings)
 - [Dashboard](#dashboard)
 - [How to Run This Project](#how_to_run_this_project)
