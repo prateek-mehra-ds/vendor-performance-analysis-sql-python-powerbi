@@ -5,16 +5,16 @@ using SQL, Python, and Power Bl._
 
 ## Table of Contents
 - [Overview](#overview)
-- [Business Problem](#business_problem)
+- [Business Problem](#business-problem)
 - [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
-- [📂 Project Structure](#--project_structure)
+- [📂 Project Structure](#-project-structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Research Questions & Key Findings](#research_questions--key_findings)
+- [Research Questions & Key Findings](#research-questions--key-findings)
 - [Dashboard](#dashboard)
-- [How to Run This Project](#how_to_run_this_project)
-- [Final Recommendation](#final_recommendation)
+- [How to Run This Project](#how-to-run-this-project)
+- [Final Recommendation](#final-recommendation)
 - [Author & Contact](#author--contact)
 
 # Overview
