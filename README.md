@@ -164,11 +164,7 @@ Email - prateek.mehra2112@gmail.com
 
 ---------------------------------------
 
-Got it ✅ I’ll polish your README so it looks **professional, well-formatted, and attractive** while keeping the same structure you’ve already set. I’ll fix typos, make sections visually engaging with emojis, and ensure Markdown renders properly on GitHub.
 
-Here’s the improved version:
-
-````markdown
 # 📊 Vendor Performance Analysis – Retail Inventory & Sales
 
 _Analyzing vendor efficiency and profitability to support strategic purchasing and inventory decisions  
