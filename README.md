@@ -38,7 +38,6 @@ Effective inventory and sales management are critical in the retail sector. This
 - Sumary table created from ingested data and used for analysis
 
 # Tools & Technologies
-
 - SQL (Common Table Expressions, Joins, Filtering)
 - Python (Pandas, Matplotlib, Seaborn, SciPy)
 - Power BI (Interactive Visualizations)
