@@ -66,27 +66,26 @@ vendor—performance—analysis/
 ├── dashboard/                  Power BI dashboard file
 │   └── vendor_performance.pbix
 
-
 vendor-performance-analysis/
 │
-├── README.md # Project documentation
-├── .gitignore # Git ignore file
-├── requirements.txt # Python dependencies
-├── vendor_performance_report.pdf # Final analysis report
+├── 📄 README.md
+├── 🛑 .gitignore
+├── 📦 requirements.txt
+├── 📑 vendor_performance_report.pdf
 │
-├── notebooks/ # Jupyter notebooks
-│ ├── exploratory_data_analysis.ipynb
-│ └── vendor_performance_analysis.ipynb
+├── 📓 notebooks/ Jupyter notebooks
+│ ├── 📘 exploratory_data_analysis.ipynb
+│ └── 📗 vendor_performance_analysis.ipynb
 │
-├── scripts/ # Python scripts for ingestion & processing
-│ ├── ingestion_db.py
-│ └── get_vendor_summary.py
+├── 🐍 scripts/ Python scripts for ingestion and processing
+│ ├── 📜 ingestion_db.py
+│ └── 📜 get_vendor_summary.py
 │
-├── outputs/ # Processed outputs (CSV files)
-│ └── vendor_sales_summary.csv
+├── 📊 outputs/ CSV file for further analysis
+│ └── 📄 vendor_sales_summary.csv
 │
-├── dashboard/ # Power BI dashboards
-│ └── vendor_performance.pbix
+├── 📈 dashboard/ Power BI dashboard file
+│ └── 📊 vendor_performance.pbix
 
 
 # Data Cleaning & Preparation
