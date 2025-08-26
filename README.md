@@ -45,27 +45,27 @@ Effective inventory and sales management are critical in the retail sector. This
 
 # Project Structure
 
-'''
+---
 vendor—performance—analysis/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
 ├── vendor_performance_report.pdf
 |
-├── notebooks/                  # Jupyter notebooks
+├── notebooks/                   Jupyter notebooks
 │   ├── exploratory_data_analysis.ipynb
 │   └── vendor_performance_analysis.ipynb
 |
-├── scripts/                   # Python scripts for ingestion and processing
+├── scripts/                    Python scripts for ingestion and processing
 │   ├── ingestion_db.py
 │   └── get_vendor_summary.py
 |
-├── outputs/                   # csv file for further analysis
+├── outputs/                    csv file for further analysis
 │   └── vendor_sales_summary.csv
 |
-├── dashboard/                 # Power BI dashboard file
+├── dashboard/                  Power BI dashboard file
 │   └── vendor_performance.pbix
-'''
+---
 
 # Data Cleaning & Preparation
 
