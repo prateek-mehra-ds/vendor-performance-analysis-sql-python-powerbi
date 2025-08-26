@@ -71,9 +71,9 @@ vendor-performance-analysis/
 # Data Cleaning & Preparation
 
 -  Removed transactions with:
- - Gross Profit ≤ 0
- - Profit Margin ≤ 0
- - Sales Quantity = 0
+   - Gross Profit ≤ 0
+   - Profit Margin ≤ 0
+   - Sales Quantity = 0
 - Created summary tables with vendor-level metrics
 - Converted data types, handled outliers, merged lookup tables
 
@@ -98,22 +98,27 @@ vendor-performance-analysis/
 # Research Questions & Key Findings
 
 1.**Brands for Promotions**: 198 brands with low sales but high profit margins
+
 2.**Top Vendors**: Top 10 vendors = 65.698 of purchases -- risk of over—reliance
+
 3.**Bulk Purchasing Impact**: 72% cost savings per unit in large orders
+
 4.**Inventory Turnover**: $2.71M worth of unsold inventory
+
 5.**Vendor Profitability**:
   - High Vendors: Mean Margin = 31.17%
   - Low Vendors: Mean Margin = 41.55%
+
 6.**Hypothesis Testing**: Statistically significant difference in profit margins -- distinct vendor
 strategies
 
 # Dashboard
 
-— Power BI Dashboard shows:
- — Vendor—wise Sales and Margins
- — Inventory Turnover
- — Bulk Purchase Savings
- - Performance Heatmaps
+- Power BI Dashboard shows:
+  - Vendor—wise Sales and Margins
+  - Inventory Turnover
+  - Bulk Purchase Savings
+  - Performance Heatmaps
 
 ![vendor_performance_dashboard](images/dashboard.png)
 
@@ -146,9 +151,12 @@ python scripts/get_vendor_summary.py
 - Improve marketing for underperforming vendors
 
 # Author & Contact
----
+
 **Prateek Mehra**
+
 Data Analyst
+
 Email - prateek.mehra2112@gmail.com
+
 [LinkedIn](wwww.linkedin.com/in/prateekmehrads/)
----
+
